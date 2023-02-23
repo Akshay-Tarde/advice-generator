@@ -87,3 +87,19 @@ body {
 .footer a:hover {
     color: hsl(193, 38%, 86%);
 }
+
+@media (min-width:600px) {
+
+    body {
+        min-height: 100vh;
+    }
+
+    .container {
+        padding: 1em 4em;
+    }
+
+    .one {
+        transform: scale(1.5);
+        margin-bottom: 3em;
+    }
+}
